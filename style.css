@@ -25,6 +25,7 @@ body {
 div.navbar-header {
     color: #F57C00;
     background-color: #F57C00;
+    border-color: #F57C00;
 }
 .navbar-default .navbar-brand {
     color: #212121;
@@ -46,18 +47,19 @@ img[Attributes Style] {
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #F57C00;
-    background-color: #F57C00 ;
+    background-color: #F57C00;
+    border-color: #F57C00;
     
    
 }
-.navbar.transparent.navbar-inverse .navbar-inner {
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+.navbar-default .navbar-nav>li>a {
+    color: #212121;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color : black ;
+	background-color : #FFE0B2 ;
+}
+
 
 
 
