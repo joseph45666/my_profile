@@ -19,13 +19,13 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #FF9800 ;
-    background-color: #FF9800;
+    color: #212121 ;
+    background-color: #FFC107;
 }
 div.navbar-header {
-    color: #F57C00;
-    background-color: #F57C00;
-    border-color: #F57C00;
+    color: #FFA000;
+    background-color: #FFA000;
+    border-color: #FFA000;
 }
 .navbar-default .navbar-brand {
     color: #212121;
@@ -42,8 +42,8 @@ img[Attributes Style] {
 	width:500px; height:300px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #F57C00;
-    background-color: #F57C00;
+    border-color: #FFA000;
+    background-color: #FFA000;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #F57C00;
